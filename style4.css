@@ -27,12 +27,14 @@
       border-radius: 20px;
   }
   .input{
+    /* width: 100px; */
       position: relative;
   }
   .label{
+      
       position: absolute;
-      top: 0;
-      left: 0;
+      top: -4px;
+      left: 10px;
       transform: translate(20px, 20px);
       transform-origin: left;
       transition: transform .25s;
@@ -61,10 +63,10 @@
   }
   #submit_button {
       background-color: #588CE0;
-      width: 100px;
+      width: 140px;
       border: 1px solid #588CE0;
       border-radius: 25px;
-      height: 30px;
+      height: 55px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       color: #FCFFE7;
@@ -126,25 +128,7 @@
   }
   
   
-  .parallax > use {
-    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-  }
-  .parallax > use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
-  }
-  .parallax > use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
-  }
-  .parallax > use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 13s;
-  }
-  .parallax > use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 20s;
-  }
+  
   @keyframes move-forever {
     0% {
      transform: translate3d(-90px,0,0);
