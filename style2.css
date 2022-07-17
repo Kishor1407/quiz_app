@@ -1,6 +1,6 @@
 .container{
     margin: auto;
-    background-color: whitesmoke;
+    background-color: lightgrey;
     /* background-color: whitesmoke; */
     height: 40%;
     width: 50%;
@@ -26,9 +26,9 @@ h1{
 }
 .btn{
     border: 2px solid white;
-    background-color: tomato;
+    background-color: #588ce0;
     padding: 5px 15px;
-    margin: 10pxpx;
+    margin: 10px 280px;
     font-size: 1.2rem;
     border-radius: 10px;
     cursor: pointer;
